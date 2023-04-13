@@ -1,0 +1,5 @@
+|questao5
+Input => est.CLK
+Output << est.DB_MAX_OUTPUT_PORT_TYPE
+
+

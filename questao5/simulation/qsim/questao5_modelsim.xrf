@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/patri/Documents/Developer/Projects/dlp/questao5/questao5.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/patri/Documents/Developer/Projects/dlp/questao5/db/questao5.cbx.xml
+design_name = questao5
+instance = comp, \Output~output , Output~output, questao5, 1
+instance = comp, \Input~input , Input~input, questao5, 1
+instance = comp, \est~0 , est~0, questao5, 1

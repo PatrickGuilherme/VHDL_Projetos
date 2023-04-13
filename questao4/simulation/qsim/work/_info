@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/patri/Documents/Developer/Projects/dlp/questao4/simulation/qsim
+Equestao4
+Z1 w1681355167
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 ^K2eeK[IVbX]]MLcdOEI91
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 GFL[QAd@dAZF:`jjOGn9>2
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3dzZ?YU_4FC5UU0cTXRET1
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z10 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+!i122 12
+R0
+Z11 8questao4.vho
+Z12 Fquestao4.vho
+l0
+L39 1
+VlBN`1_PZh961I@EAdb9G62
+!s100 <P7>EFM@zX[L;z?5ELm6_1
+Z13 OV;C;2020.1;71
+32
+Z14 !s110 1681355169
+!i10b 1
+Z15 !s108 1681355169.000000
+Z16 !s90 -work|work|questao4.vho|
+Z17 !s107 questao4.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 8 questao4 0 22 lBN`1_PZh961I@EAdb9G62
+!i122 12
+l180
+L48 1712
+VA>2m5IeOaYVQnK>?d8Y_P1
+!s100 [=[EK@V5W]>>0UN5N9WJK0
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Equestao4_vhd_vec_tst
+Z20 w1681355164
+R8
+R9
+!i122 13
+R0
+Z21 8Waveform4.vwf.vht
+Z22 FWaveform4.vwf.vht
+l0
+L32 1
+VSLV26^CVG1GdK[?Y3c:T]1
+!s100 E;`MaGZPMS6Ddldn?U`2L3
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform4.vwf.vht|
+Z24 !s107 Waveform4.vwf.vht|
+!i113 1
+R18
+R19
+Aquestao4_arch
+R8
+R9
+Z25 DEx4 work 20 questao4_vhd_vec_tst 0 22 SLV26^CVG1GdK[?Y3c:T]1
+!i122 13
+l49
+Z26 L34 53
+Z27 VYP^AHHYUKji7Uj`innBYV1
+Z28 !s100 Ah]hNXd4VbSRAhJHS^c6z0
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19
+vquestao4_vlg_vec_tst
+!s110 1681354024
+!i10b 1
+!s100 h5FE>;R02PziHa;7]klRY1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I<BkKkWS6=d93DoLnQGTHM1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1681354020
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+!i122 7
+L0 30 38
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1681354024.000000
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R18
+tCvgOpt 0

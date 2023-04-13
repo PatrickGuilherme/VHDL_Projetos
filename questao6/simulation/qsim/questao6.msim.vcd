@@ -1,0 +1,477 @@
+$comment
+	File created using the following command:
+		vcd file questao6.msim.vcd -direction
+$end
+$date
+	Thu Apr 13 00:15:14 2023
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module questao6_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " x $end
+$var wire 1 # display1 [6] $end
+$var wire 1 $ display1 [5] $end
+$var wire 1 % display1 [4] $end
+$var wire 1 & display1 [3] $end
+$var wire 1 ' display1 [2] $end
+$var wire 1 ( display1 [1] $end
+$var wire 1 ) display1 [0] $end
+
+$scope module i1 $end
+$var wire 1 * gnd $end
+$var wire 1 + vcc $end
+$var wire 1 , unknown $end
+$var tri1 1 - devclrn $end
+$var tri1 1 . devpor $end
+$var tri1 1 / devoe $end
+$var wire 1 0 display1[0]~output_o $end
+$var wire 1 1 display1[1]~output_o $end
+$var wire 1 2 display1[2]~output_o $end
+$var wire 1 3 display1[3]~output_o $end
+$var wire 1 4 display1[4]~output_o $end
+$var wire 1 5 display1[5]~output_o $end
+$var wire 1 6 display1[6]~output_o $end
+$var wire 1 7 clk~input_o $end
+$var wire 1 8 Add0~81_sumout $end
+$var wire 1 9 count[0]~0_combout $end
+$var wire 1 : Add0~82 $end
+$var wire 1 ; Add0~1_sumout $end
+$var wire 1 < Add0~2 $end
+$var wire 1 = Add0~29_sumout $end
+$var wire 1 > Add0~30 $end
+$var wire 1 ? Add0~25_sumout $end
+$var wire 1 @ Add0~26 $end
+$var wire 1 A Add0~21_sumout $end
+$var wire 1 B Add0~22 $end
+$var wire 1 C Add0~17_sumout $end
+$var wire 1 D Add0~18 $end
+$var wire 1 E Add0~13_sumout $end
+$var wire 1 F Add0~14 $end
+$var wire 1 G Add0~9_sumout $end
+$var wire 1 H Add0~10 $end
+$var wire 1 I Add0~53_sumout $end
+$var wire 1 J Add0~54 $end
+$var wire 1 K Add0~49_sumout $end
+$var wire 1 L Add0~50 $end
+$var wire 1 M Add0~45_sumout $end
+$var wire 1 N Add0~46 $end
+$var wire 1 O Add0~41_sumout $end
+$var wire 1 P Add0~42 $end
+$var wire 1 Q Add0~85_sumout $end
+$var wire 1 R Add0~86 $end
+$var wire 1 S Add0~33_sumout $end
+$var wire 1 T Add0~34 $end
+$var wire 1 U Add0~77_sumout $end
+$var wire 1 V Add0~78 $end
+$var wire 1 W Add0~73_sumout $end
+$var wire 1 X Add0~74 $end
+$var wire 1 Y Add0~69_sumout $end
+$var wire 1 Z Add0~70 $end
+$var wire 1 [ Add0~65_sumout $end
+$var wire 1 \ Add0~66 $end
+$var wire 1 ] Add0~61_sumout $end
+$var wire 1 ^ Add0~62 $end
+$var wire 1 _ Add0~57_sumout $end
+$var wire 1 ` Add0~58 $end
+$var wire 1 a Add0~125_sumout $end
+$var wire 1 b Add0~126 $end
+$var wire 1 c Add0~121_sumout $end
+$var wire 1 d Add0~122 $end
+$var wire 1 e Add0~117_sumout $end
+$var wire 1 f Add0~118 $end
+$var wire 1 g Add0~113_sumout $end
+$var wire 1 h Add0~114 $end
+$var wire 1 i Add0~109_sumout $end
+$var wire 1 j Add0~110 $end
+$var wire 1 k Add0~105_sumout $end
+$var wire 1 l Add0~106 $end
+$var wire 1 m Add0~101_sumout $end
+$var wire 1 n Add0~102 $end
+$var wire 1 o Add0~37_sumout $end
+$var wire 1 p Add0~38 $end
+$var wire 1 q Add0~97_sumout $end
+$var wire 1 r Add0~98 $end
+$var wire 1 s Add0~93_sumout $end
+$var wire 1 t Add0~94 $end
+$var wire 1 u Add0~89_sumout $end
+$var wire 1 v Add0~90 $end
+$var wire 1 w Add0~5_sumout $end
+$var wire 1 x Equal0~0_combout $end
+$var wire 1 y Equal0~1_combout $end
+$var wire 1 z Equal0~2_combout $end
+$var wire 1 { Equal0~3_combout $end
+$var wire 1 | Equal0~4_combout $end
+$var wire 1 } Equal0~5_combout $end
+$var wire 1 ~ Equal0~6_combout $end
+$var wire 1 !! tmp~0_combout $end
+$var wire 1 "! tmp~q $end
+$var wire 1 #! x~input_o $end
+$var wire 1 $! Selector3~0_combout $end
+$var wire 1 %! est.S3~q $end
+$var wire 1 &! Selector2~0_combout $end
+$var wire 1 '! est.S2~q $end
+$var wire 1 (! Selector1~0_combout $end
+$var wire 1 )! est.S1~q $end
+$var wire 1 *! Selector0~0_combout $end
+$var wire 1 +! est.S0~q $end
+$var wire 1 ,! d1~0_combout $end
+$var wire 1 -! WideOr4~combout $end
+$var wire 1 .! d1~1_combout $end
+$var wire 1 /! Equal4~0_combout $end
+$var wire 1 0! Equal4~1_combout $end
+$var wire 1 1! count [31] $end
+$var wire 1 2! count [30] $end
+$var wire 1 3! count [29] $end
+$var wire 1 4! count [28] $end
+$var wire 1 5! count [27] $end
+$var wire 1 6! count [26] $end
+$var wire 1 7! count [25] $end
+$var wire 1 8! count [24] $end
+$var wire 1 9! count [23] $end
+$var wire 1 :! count [22] $end
+$var wire 1 ;! count [21] $end
+$var wire 1 <! count [20] $end
+$var wire 1 =! count [19] $end
+$var wire 1 >! count [18] $end
+$var wire 1 ?! count [17] $end
+$var wire 1 @! count [16] $end
+$var wire 1 A! count [15] $end
+$var wire 1 B! count [14] $end
+$var wire 1 C! count [13] $end
+$var wire 1 D! count [12] $end
+$var wire 1 E! count [11] $end
+$var wire 1 F! count [10] $end
+$var wire 1 G! count [9] $end
+$var wire 1 H! count [8] $end
+$var wire 1 I! count [7] $end
+$var wire 1 J! count [6] $end
+$var wire 1 K! count [5] $end
+$var wire 1 L! count [4] $end
+$var wire 1 M! count [3] $end
+$var wire 1 N! count [2] $end
+$var wire 1 O! count [1] $end
+$var wire 1 P! count [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1)
+0(
+0'
+0&
+0%
+0$
+0#
+0*
+1+
+x,
+1-
+1.
+1/
+10
+01
+02
+03
+04
+05
+06
+07
+08
+19
+1:
+1;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+1x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+1$!
+0%!
+0&!
+0'!
+0(!
+0)!
+1*!
+0+!
+0,!
+0-!
+0.!
+1/!
+10!
+0P!
+0O!
+0N!
+0M!
+0L!
+0K!
+0J!
+0I!
+0H!
+0G!
+0F!
+0E!
+0D!
+0C!
+0B!
+0A!
+0@!
+0?!
+0>!
+0=!
+0<!
+0;!
+0:!
+09!
+08!
+07!
+06!
+05!
+04!
+03!
+02!
+01!
+$end
+#50000
+1"
+1#!
+1(!
+0$!
+#100000
+1!
+0"
+0#!
+17
+0(!
+1$!
+1O!
+1P!
+0:
+18
+0x
+1<
+0;
+0<
+1;
+1=
+09
+0=
+#150000
+1"
+1#!
+1(!
+0$!
+#200000
+0!
+0"
+0#!
+07
+0(!
+1$!
+#250000
+1"
+1#!
+1(!
+0$!
+#300000
+1!
+0"
+0#!
+17
+0(!
+1$!
+0P!
+1:
+08
+1<
+0;
+19
+1=
+#350000
+1"
+1#!
+1(!
+0$!
+#400000
+0!
+0"
+0#!
+07
+0(!
+1$!
+#450000
+1"
+1#!
+1(!
+0$!
+#500000
+1!
+0"
+0#!
+17
+0(!
+1$!
+1N!
+0O!
+1P!
+0:
+18
+1x
+0<
+1>
+1;
+0=
+0>
+0;
+1=
+1?
+09
+0?
+#550000
+1"
+1#!
+1(!
+0$!
+#600000
+0!
+0"
+0#!
+07
+0(!
+1$!
+#650000
+1"
+1#!
+1(!
+0$!
+#700000
+1!
+0"
+0#!
+17
+0(!
+1$!
+0P!
+1:
+08
+1;
+19
+#750000
+1"
+1#!
+1(!
+0$!
+#800000
+0!
+0"
+0#!
+07
+0(!
+1$!
+#850000
+1"
+1#!
+1(!
+0$!
+#900000
+1!
+0"
+0#!
+17
+0(!
+1$!
+1O!
+1P!
+0:
+18
+0x
+1<
+0;
+0<
+1>
+1;
+0=
+09
+0>
+1=
+1?
+0?
+#950000
+1"
+1#!
+1(!
+0$!
+#1000000
